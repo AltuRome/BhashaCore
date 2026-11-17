@@ -1,0 +1,20 @@
+# BhashaCore notebook. Install with:  pip install -r requirements.txt
+# On Linux/WSL the PyTorch wheel from PyPI includes CUDA. On native Windows, install torch
+# from https://pytorch.org/get-started/locally/ first (the PyPI one is CPU-only there).
+torch>=2.6
+transformers>=4.56
+sentence-transformers>=3.0
+accelerate
+bitsandbytes
+huggingface_hub
+datasets
+sentencepiece
+fasttext
+sacrebleu
+scipy
+statsmodels
+pandas>=2.1
+tabulate
+matplotlib
+tqdm
+ipykernel
